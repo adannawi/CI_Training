@@ -5,3 +5,4 @@ C:\CIGit\training\src\main\java\ci\training\beans\Customer.java
 C:\CIGit\training\src\main\java\ci\training\beans\Wallet.java
 C:\CIGit\training\src\main\java\ci\training\service\WalletService.java
 C:\CIGit\training\src\main\java\ci\training\exceptions\InsufficientBalanceException.java
+C:\CIGit\training\src\main\java\ci\training\repo\WalletRepoImpl.java
