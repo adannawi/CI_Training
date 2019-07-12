@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ci.training.WalletProjectTest" time="0.693" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ci.training.WalletProjectTest" time="1.186" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\zdannawi\AppData\Local\Temp\surefire3484933372192829874\surefirebooter2338892148819379811.jar C:\Users\zdannawi\AppData\Local\Temp\surefire3484933372192829874 2019-07-12T11-29-17_668-jvmRun1 surefire5870772880730543513tmp surefire_07894233997365979838tmp"/>
+    <property name="sun.java.command" value="C:\Users\zdannawi\AppData\Local\Temp\surefire2912284776849181074\surefirebooter9142381724374852180.jar C:\Users\zdannawi\AppData\Local\Temp\surefire2912284776849181074 2019-07-12T13-32-27_120-jvmRun1 surefire6451938312133396626tmp surefire_08464744190814807799tmp"/>
     <property name="surefire.test.class.path" value="C:\CIGit\training\target\test-classes;C:\CIGit\training\target\classes;C:\Users\zdannawi\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\zdannawi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\zdannawi\.m2\repository\org\mockito\mockito-all\1.9.5\mockito-all-1.9.5.jar;C:\Users\zdannawi\.m2\repository\info\cukes\cucumber-java\1.2.2\cucumber-java-1.2.2.jar;C:\Users\zdannawi\.m2\repository\info\cukes\cucumber-core\1.2.2\cucumber-core-1.2.2.jar;C:\Users\zdannawi\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\zdannawi\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\zdannawi\.m2\repository\info\cukes\cucumber-junit\1.2.2\cucumber-junit-1.2.2.jar;C:\Users\zdannawi\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.3\cucumber-jvm-deps-1.0.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\zdannawi"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\zdannawi\AppData\Local\Temp\surefire3484933372192829874\surefirebooter2338892148819379811.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\zdannawi\AppData\Local\Temp\surefire2912284776849181074\surefirebooter9142381724374852180.jar;C:\\Users\\zdannawi\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.2\\org.jacoco.agent-0.8.2-runtime.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>

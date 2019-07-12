@@ -1,6 +1,7 @@
 package ci.training.repo;
 
 import java.util.ArrayList;
+import java.util.Optional;
 
 import ci.training.beans.Customer;
 
@@ -13,6 +14,10 @@ public class WalletRepoImpl implements WalletRepo {
 	}
 
 	public Customer find(String phoneNumber) {
+		Optional<Customer> op = custList.stream().filter(c -> c.getPhoneNumber().equals(phoneNumber)).findFirst();
+		if (op.isPresent()) {
+			return op.get();
+		}
 		return null;
 	}
 
