@@ -30,7 +30,7 @@ public void i_pass_in_the_name_as_and_the_phone_number_as_and_the_amount_as(Stri
 
 @Then("^I should have an account with the name as \"(.*?)\" and the phone number as \"(.*?)\" and the balance as (\\d+)$")
 public void i_should_have_an_account_with_the_name_as_and_the_phone_number_as_and_the_balance_as(String name, String phone, BigDecimal amount) throws Throwable {
-    cust = myRepo.find(phone);
+   // cust = myRepo.find(phone);
 	assertEquals(cust.getName(), name);
     assertEquals(cust.getPhoneNumber(), phone);
     assertEquals(cust.getWallet().getBalance(), amount);
