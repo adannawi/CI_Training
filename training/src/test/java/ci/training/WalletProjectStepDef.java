@@ -36,7 +36,7 @@ public void i_should_have_an_account_with_the_name_as_and_the_phone_number_as_an
     assertEquals(cust.getPhoneNumber(), phone);
     assertEquals(cust.getWallet().getBalance(), amount);
     
-    cust = myRepo.find("7461123473");
+    cust = ws.showBalance("7461123473");
     assertNull(cust);
 }
 
